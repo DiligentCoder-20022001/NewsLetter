@@ -1,7 +1,7 @@
 # NewsLetter
 
 
-Never miss my blogs, sign up over here and get added in the loop!
+Never miss my blogs, sign up over here and get added in the loop of my subscribers!
 
 ## How to run?
 
