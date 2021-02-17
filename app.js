@@ -44,7 +44,7 @@ app.post("/", function (req, res) {
     //required to make https post requests
     const options = {
         method: "POST",
-        auth: "Siddharth:f6635bd4bde569dec24bb0d82074de8b-us1"//username:apikey
+        auth: "Siddharth:{API KEY}-us1"//username:apikey
     }
 
     const request1 = https.request(url, options, function (response) {
@@ -79,6 +79,5 @@ app.listen(process.env.PORT || 3000, function () {
     console.log("Server has started");
 });
 
-//API key : f6635bd4bde569dec24bb0d82074de8b-us1
 //list id : d658e8a8b5-> helps to identify the list we need to put subscribers in 
 //refer heroku docs under node.js for deployment
